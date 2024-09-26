@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkblue;
+}
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h4{
+    margin-bottom: 0px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-group input[type="radio"] {
+    width: auto;
+}
+.form-group .terms {
+    display: flex;
+    align-items: center;
+}
+.form-group .terms input {
+    width: auto;
+    margin-right: 10px;
+}
+.btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-register:hover {
+    background-color: darkgreen;
+}
+.ad-banner {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ad-banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+h1{
+    margin-bottom: 10px;
+    color: gold;
+}
+button{
+    background-color: red;
+    margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/code.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <div class="container">
+            <div class="ad-banner">
+                <img src="IMAGE/WhatsApp Image 2024-09-20 at 19.59.13_3000e226.jpg" alt="Ad banner">
+            </div>
+        <form>
+            <div class="form-group">
+                <h4><label for="firstName">First Name:</label></h4>
+                <input type="text" id="firstName" name="firstName" required placeholder="e.g victory">
+            </div>
+            <div class="form-group">
+                <h4><label for="lastName">Last Name:</label></h4>
+                <input type="text" id="lastName" name="lastName" required placeholder="e.g OVIE">
+            </div>
+            <div class="form-group">
+                <h4><label for="email">Email:</label></h4>
+                <input type="email" id="email" name="email" required placeholder="cow@gmail.com">
+            </div>
+            <div class="form-group">
+                <h4><label for="password">Password:</label></h4>
+                <input type="password" id="password" name="password" required placeholder="e.g vict$$$">
+            </div>
+            <div>
+                <h4><label>Gender:</label></h4>
+            </div>
+            <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+                <h4><label for="state">State of Origin:</label></h4>
+                <select id="state" name="state">
+                    <option value="">--Select State--</option>
+                    <option value="state1">EDO STATE</option>
+                    <option value="state2">KADUNA STATE</option>
+                    <option value="state3">LAGOS STATE</option>
+                    <option value="state3">OGUN STATE</option>
+                    <option value="state3">KANO STATE</option>
+                    <option value="state3">DELTA STATE</option>
+                </select>
+            </div>
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the terms and conditions</label>
+            <button type="submit" class="btn-register">Register</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
